@@ -5,9 +5,7 @@ const Styles = StyleSheet.create({
         width : '100%',      // whole of the screen
         height : 500,
         resizeMode : 'cover', // cover the whole View which is displayed
-        justifyContent : 'center',
-        position: 'absolute',
-        zIndex : -1
+        justifyContent : 'center'
     },
     title : {
         fontSize : 80,
@@ -36,7 +34,7 @@ const Styles = StyleSheet.create({
     searchbutton: {
         backgroundColor: '#fff',
         height: 60,
-        width: Dimensions.get('screen').width - 20,
+        width: Dimensions.get('screen').width - 20,     //make width same as screen size
         borderRadius: 30,
         marginHorizontal: 10,
         flexDirection: 'row',
@@ -50,7 +48,7 @@ const Styles = StyleSheet.create({
         fontSize: 16,
         fontWeight: 'bold',
       },
-    //make width same as screen size
+
 });
 
 export default Styles;
